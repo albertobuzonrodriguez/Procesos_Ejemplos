@@ -2,11 +2,11 @@ package ejemplos;
 
 import java.io.*;
 
-public class ProcessBuilderEjemplo {
-    public static void main(String[] args) throws InterruptedException {
+public class ProcessBuilderFirefox {
+     public static void main(String[] args) throws InterruptedException {
         try {
-            String url = "https://www.youtube.com";
-            ProcessBuilder pb = new ProcessBuilder("cmd", "/c", "start", url);
+            String url = "C:\\Program Files\\Mozilla Firefox\\firefox.exe";
+            ProcessBuilder pb = new ProcessBuilder(url);
             Process proceso = pb.start();
             int exitcode = proceso.waitFor();
             System.out.println("El proceso terminó con código: "+ exitcode);

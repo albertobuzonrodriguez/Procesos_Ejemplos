@@ -1,0 +1,56 @@
+{
+    // Use IntelliSense to learn about possible attributes.
+    // Hover to view descriptions of existing attributes.
+    // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "type": "java",
+            "name": "ProcessBuilderFirefox",
+            "request": "launch",
+            "mainClass": "ProcesosEjemplos/ejemplos.ProcessBuilderFirefox",
+            "projectName": "ProcesosEjemplos"
+        },
+        {
+            "type": "java",
+            "name": "Current File",
+            "request": "launch",
+            "mainClass": "${file}"
+        },
+        {
+            "type": "java",
+            "name": "HiloBomba",
+            "request": "launch",
+            "mainClass": "ProcesosEjemplos/ejemplos.HiloBomba",
+            "projectName": "ProcesosEjemplos"
+        },
+        {
+            "type": "java",
+            "name": "Lanzahilosyesperaqueterminen",
+            "request": "launch",
+            "mainClass": "ProcesosEjemplos/ejemplos.Lanzahilosyesperaqueterminen",
+            "projectName": "ProcesosEjemplos"
+        },
+        {
+            "type": "java",
+            "name": "PrimerHilo",
+            "request": "launch",
+            "mainClass": "ProcesosEjemplos/ejemplos.PrimerHilo",
+            "projectName": "ProcesosEjemplos"
+        },
+        {
+            "type": "java",
+            "name": "ProcessBuilderEjemplo",
+            "request": "launch",
+            "mainClass": "ProcesosEjemplos/ejemplos.ProcessBuilderEjemplo",
+            "projectName": "ProcesosEjemplos"
+        },
+        {
+            "type": "java",
+            "name": "Supermercados",
+            "request": "launch",
+            "mainClass": "ProcesosEjemplos/supermercado.Supermercados",
+            "projectName": "ProcesosEjemplos"
+        }
+    ]
+}
