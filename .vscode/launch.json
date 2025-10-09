@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "ProcessBuilderHash",
+            "request": "launch",
+            "mainClass": "ProcesosEjemplos/ejemplos.ProcessBuilderHash",
+            "projectName": "ProcesosEjemplos"
+        },
+        {
+            "type": "java",
             "name": "ProcessBuilderFirefox",
             "request": "launch",
             "mainClass": "ProcesosEjemplos/ejemplos.ProcessBuilderFirefox",

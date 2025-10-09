@@ -8,7 +8,7 @@ public class ProcessBuilderFirefox {
             String dir = "C:\\Program Files\\Mozilla Firefox\\firefox.exe";
             String urlweb = "https://www.youtube.com";
             ProcessBuilder pb = new ProcessBuilder(dir, urlweb);
-            Process proceso = pb.start();
+            Process proceso = pb.start(); 
             int exitcode = proceso.waitFor();
             System.out.println("El proceso terminó con código: "+ exitcode);
         } catch (IOException e) {
