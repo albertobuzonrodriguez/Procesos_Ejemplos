@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Python",
+            "request": "launch",
+            "mainClass": "ProcesosEjemplos/ejemplos.Python",
+            "projectName": "ProcesosEjemplos"
+        },
+        {
+            "type": "java",
             "name": "ProcessBuilderHash",
             "request": "launch",
             "mainClass": "ProcesosEjemplos/ejemplos.ProcessBuilderHash",

@@ -42,7 +42,7 @@ public class ProcessBuilderHash {
 			salida.close();
             bw.close();
             fw.close();
-            ProcessBuilder pb = new ProcessBuilder();
+            ProcessBuilder pb = new ProcessBuilder("cmd", "/c", "certutil -hashfile C:\\Users\\AlbertoBuzónRodrígue\\Desktop\\ProcessBuilderEjemplo.txt MD5");
             pb.redirectOutput(new File (ARCHIVO_HASH));
 
         } catch (IOException e) {
