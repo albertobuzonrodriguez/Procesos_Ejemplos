@@ -6,6 +6,7 @@ public class Python {
     
     public static void ejecutarScript() throws InterruptedException{
          try {
+            
             ProcessBuilder pb = new ProcessBuilder("python", "C:\\Users\\AlbertoBuzónRodrígue\\Desktop\\Script.py");
             Process proceso = pb.start();
             BufferedReader lector = new BufferedReader(new InputStreamReader(proceso.getInputStream()));

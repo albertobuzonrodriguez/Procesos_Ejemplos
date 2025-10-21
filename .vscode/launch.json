@@ -6,6 +6,20 @@
     "configurations": [
         {
             "type": "java",
+            "name": "PracticaThreadpool",
+            "request": "launch",
+            "mainClass": "ProcesosEjemplos/ejemplos.PracticaThreadpool",
+            "projectName": "ProcesosEjemplos"
+        },
+        {
+            "type": "java",
+            "name": "EjemploThreadpool3Hilos",
+            "request": "launch",
+            "mainClass": "ProcesosEjemplos/ejemplos.EjemploThreadpool3Hilos",
+            "projectName": "ProcesosEjemplos"
+        },
+        {
+            "type": "java",
             "name": "Python",
             "request": "launch",
             "mainClass": "ProcesosEjemplos/ejemplos.Python",
