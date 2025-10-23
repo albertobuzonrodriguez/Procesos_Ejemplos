@@ -1,16 +1,25 @@
-package ejemplos;
+package supermercado;
 
 import java.util.concurrent.ExecutorService;
 import java.util.concurrent.Executors;
 import java.util.concurrent.TimeUnit;
 
-public class PracticaThreadpool {
-    public static void main(String[] args){
+public class Supermercado {
+    public static void main(String[] args) {
+        
+        Cliente[] clientesCajera1 = {
+            new Cliente("cliente 1", ((int)(Math.random() * 2) + 2), ((int)(Math.random() * 5) + 5)),
+            new Cliente("cliente 3", ((int)(Math.random() * 2) + 2), ((int)(Math.random() * 5) + 5))
+        };
+        
+        Cliente[] clientesCajera2 = {
+            new Cliente("cliente 2", ((int)(Math.random() * 2) + 2), ((int)(Math.random() * 5) + 5)),
+            new Cliente("cliente 4", ((int)(Math.random() * 2) + 2), ((int)(Math.random() * 5) + 5))
+        };
 
-        // Creamos un pool fijo de 5 hilos
+
         ExecutorService servicio = Executors.newFixedThreadPool(5);
 
-        // Enviamos 10 tareas al pool usando un bucle
         for (int i = 1; i <= 20; i++) {
             int idPedido = i;
         // Envío de tarea al pool (tarea sin valor de retorno)
@@ -43,5 +52,6 @@ public class PracticaThreadpool {
             Thread.currentThread().interrupt(); 
         }
         System.out.println("Se han enviado todos los pedidos al pool de hilos.");
+
     }
 }
